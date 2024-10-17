@@ -4,18 +4,18 @@ This project contains automated tests for the Holycode website using Cypress. Th
 
 ## Table of Contents
 
-- [Installation](#installation)
-- [Setup Instructions](#setup-instructions)
-- [How to Run Tests](#how-to-run-tests)
-- [Test Cases](#test-cases)
+- [Installation]
+- [Setup Instructions]
+- [How to Run Tests]
+- [Test Cases]
 
 ## Installation
 
 1. Ensure you have [Node.js](https://nodejs.org/) installed on your machine.
 2. Clone the repository to your local machine:
   
-   git clone https://github.com/your-username/your-repository.git
-   cd your-repository
+   git clone https://github.com/bojanmilovanovicQA/etonDigitalZadatak.git
+   cd etonDigitalZadatak
 
 ***Install the project dependencies:
 
