@@ -45,9 +45,9 @@ export default class CareersPage {
         };
 
         loadPositions() // Počni učitavanje pozicija
-            .catch((error) => {
-                cy.log('An error occurred:', error); // Zapiši grešku
-            });
+            // .catch((error) => {
+            //     cy.log('An error occurred:', error); // Zapiši grešku
+            // });
     }
 
 

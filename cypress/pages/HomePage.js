@@ -11,9 +11,9 @@ export default class HomePage {
             .scrollIntoView()
             .should('be.visible')
             .click() // Klikni na "Open Positions"
-            .catch((error) => {
-                cy.log('An error occurred while opening positions:', error); // Zapiši grešku
-            });
+        // .catch((error) => {
+        //     cy.log('An error occurred while opening positions:', error); // Zapiši grešku
+        // });
     }
 
     static handleCookies() {
@@ -22,10 +22,6 @@ export default class HomePage {
             if ($btn.is(':visible')) {
                 cy.wrap($btn).click(); // Klikni na dugme
 
-                // Proveri da popup više ne postoji pre nastavka
-                // cy.get(Selectors.acceptCookiesButton, { timeout: 5000 })
-                // .should('not.exist');
-                // Ostavljeno kao opcija
             }
         });
     }
@@ -37,9 +33,9 @@ export default class HomePage {
                 // Proveri tekst naslova
                 expect($title).to.have.text('Tech Solutions to scale');
             })
-            .catch((error) => {
-                cy.log('Error checking page title:', error.message); // Loguj grešku ako dođe do problema
-            });
+        // .catch((error) => {
+        //     cy.log('Error checking page title:', error.message); // Loguj grešku ako dođe do problema
+        // });
     }
 
 }

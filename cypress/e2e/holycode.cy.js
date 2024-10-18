@@ -3,10 +3,12 @@ import CareersPage from '../pages/CareersPage';
 
 describe('Holycode Website Tests', () => {
     beforeEach(() => {
+        HomePage.visit();
         cy.window().then((win) => {
             cy.viewport(win.innerWidth, win.innerHeight);  // Automatski prilagođava viewport
         });
-        HomePage.visit();
+        cy.wait(2000);
+        HomePage.handleCookies();
 
     });
 
@@ -14,11 +16,7 @@ describe('Holycode Website Tests', () => {
         HomePage.checkPageTitle();
     });
 
-    it('Navigates to Careers and checks QA team', () => {
-        //HomePage.visit();
-        cy.wait(2000);
-        HomePage.handleCookies();
-        cy.wait(2000);
+    it('Navigates to Careers and checks Senior QA position team:etonDigital', () => {
         HomePage.openPositions();
         CareersPage.filterByPosition();
         CareersPage.checkTeamForPosition('Senior QA Developer/QA Team Lead', 'EtonDigital');
