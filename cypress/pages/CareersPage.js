@@ -34,7 +34,7 @@ export default class CareersPage {
                 } else {
                     // Kada dugme više nije vidljivo, prikupljamo sve nazive poslova
                     cy.get('body > main > div.c-section.c-section--careers > div') // Koristite vaš selektor
-                        .find('h3') // Pronađite sve <h3> unutar izabranog elementa
+                        .find('h3') // Pronađi sve <h3> unutar izabranog elementa
                         .then(($titles) => {
                             const jobTitles = $titles.map((i, el) => Cypress.$(el).text()).get();
                             jobTitlesArray.push(...jobTitles); // Dodaj nazive u niz
@@ -44,10 +44,11 @@ export default class CareersPage {
             });
         };
 
-        loadPositions() // Počni učitavanje pozicija
-            // .catch((error) => {
-            //     cy.log('An error occurred:', error); // Zapiši grešku
-            // });
+        loadPositions(); // Počni učitavanje pozicija
+
+
+
+
     }
 
 

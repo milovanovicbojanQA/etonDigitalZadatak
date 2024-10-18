@@ -9,7 +9,6 @@ describe('Holycode Website Tests', () => {
         });
         cy.wait(2000);
         HomePage.handleCookies();
-
     });
 
     it('Verifies homepage title', () => {

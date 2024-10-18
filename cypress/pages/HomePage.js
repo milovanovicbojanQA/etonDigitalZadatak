@@ -11,9 +11,6 @@ export default class HomePage {
             .scrollIntoView()
             .should('be.visible')
             .click() // Klikni na "Open Positions"
-        // .catch((error) => {
-        //     cy.log('An error occurred while opening positions:', error); // Zapiši grešku
-        // });
     }
 
     static handleCookies() {
@@ -33,9 +30,6 @@ export default class HomePage {
                 // Proveri tekst naslova
                 expect($title).to.have.text('Tech Solutions to scale');
             })
-        // .catch((error) => {
-        //     cy.log('Error checking page title:', error.message); // Loguj grešku ako dođe do problema
-        // });
     }
 
 }
