@@ -13,11 +13,11 @@ e2e
 pages
 
 
-—CareersPage.js
+—careersPage.js
 
-—HomePage.js
+—homePage.js
 
-—Selectors
+—selectors.js
 
 ## Table of Contents
 
