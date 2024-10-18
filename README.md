@@ -4,8 +4,15 @@
 This project contains automated tests for the Holycode website using Cypress. The tests cover key functionalities, including navigation, job filtering, and verifying page titles.
 
 e2e
+
+
 —holycode.cy.js
+
+
+
 pages
+
+
 —CareersPage.js
 —HomePage.js
 —Selectors
