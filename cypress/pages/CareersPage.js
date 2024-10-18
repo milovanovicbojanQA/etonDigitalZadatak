@@ -33,7 +33,7 @@ export default class CareersPage {
                     loadPositions(); // Rekurzivno pozovi da učita više pozicija
                 } else {
                     // Kada dugme više nije vidljivo, prikupljamo sve nazive poslova
-                    cy.get('body > main > div.c-section.c-section--careers > div') // Koristite vaš selektor
+                    cy.get('body > main > div.c-section.c-section--careers > div')
                         .find('h3') // Pronađi sve <h3> unutar izabranog elementa
                         .then(($titles) => {
                             const jobTitles = $titles.map((i, el) => Cypress.$(el).text()).get();
