@@ -35,9 +35,15 @@ npx cypress open
 
 ***How to Run Tests:
 
-1.Open Cypress, and you will see the test files listed in the Cypress Test Runner.
+1.Open Project with terminal.
 
-2.Click on the test file you want to run (e.g., Tests.js).
+2.Run command: npx cypress open.
+
+3.Choose "E2E Testing" option (should be configured)
+
+4.Select Chroome and click on "Start E2E testing on Chrome"
+
+5.Click "holycode.cy.js"
 
 3.The tests will execute in the Cypress test runner, and you will be able to see the results in real-time.
 
