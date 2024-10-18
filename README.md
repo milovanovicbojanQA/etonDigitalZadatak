@@ -3,6 +3,13 @@
 
 This project contains automated tests for the Holycode website using Cypress. The tests cover key functionalities, including navigation, job filtering, and verifying page titles.
 
+e2e
+—holycode.cy.js
+pages
+—CareersPage.js
+—HomePage.js
+—Selectors
+
 ## Table of Contents
 
 - [Installation]
@@ -48,7 +55,7 @@ npx cypress open
 3.The tests will execute in the Cypress test runner, and you will be able to see the results in real-time.
 
 
-***Test Cases:
+***Test Cases :
 
 1.Verify homepage title: Checks that the homepage title matches "Tech Solutions to scale".
 

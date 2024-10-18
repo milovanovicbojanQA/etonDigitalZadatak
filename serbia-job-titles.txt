@@ -1,6 +1,5 @@
 Backend Engineer
 Senior Full-Stack Developer
-Junior QA Engineer
 Junior Implementation Support Engineer
 Bubble Developer
 Senior Cloud Native Node.js Developer

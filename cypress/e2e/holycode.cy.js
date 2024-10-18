@@ -1,5 +1,5 @@
-import HomePage from '../pages/HomePage';
-import CareersPage from '../pages/CareersPage';
+import HomePage from '../pages/homePage';
+import CareersPage from '../pages/careersPage';
 
 describe('Holycode Website Tests', () => {
     beforeEach(() => {

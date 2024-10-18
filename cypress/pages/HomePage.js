@@ -1,4 +1,4 @@
-import Selectors from './Selectors';
+import Selectors from './selectors';
 
 export default class HomePage {
     static visit() {
