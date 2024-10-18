@@ -8,6 +8,8 @@ const Selectors = {
     pageTitle: 'h1.c-txt--hero.c-hero__title', // Naslov na HomePage
     acceptCookiesButton: 'button#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll', // Selektor za Accept All dugme
     openPositionsButton: 'a.c-btn:contains("View open positions")',
+    jobTitleContainer: 'body > main > div.c-section.c-section--careers > div', // Kontejner za pozicije
+
 
 };
 
